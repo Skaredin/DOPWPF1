@@ -26,6 +26,7 @@ namespace DOP1
 
         private void Zadanie7_Click(object sender, RoutedEventArgs e)
         {
+
             this.Hide();
             KonecnoeZadaniee konecnoeZadaniee = new KonecnoeZadaniee();
             konecnoeZadaniee.Show();
