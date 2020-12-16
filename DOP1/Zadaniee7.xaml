@@ -1,0 +1,17 @@
+﻿<Window x:Class="DOP1.Zadaniee7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DOP1"
+        mc:Ignorable="d"
+        Title="Zadaniee7" Height="450" Width="800">
+    <Grid>
+        <Canvas>
+
+            <Button  Background="BlanchedAlmond" Content ="Otstup rigiht 20 left 20" Canvas.Top="20" Canvas.Left="20"/>
+            <Button  Background="BlanchedAlmond" Content ="Otstup rigiht 50 left 50" Canvas.Bottom="50" Canvas.Right="50"/>
+            <Button  Background="BlanchedAlmond" x:Name="Zadanie8" Content ="Zadanie8" Click="Zadanie7_Click" Height="80" Canvas.Left="335" Canvas.Top="156" Width="80"/>
+        </Canvas>
+    </Grid>
+</Window>

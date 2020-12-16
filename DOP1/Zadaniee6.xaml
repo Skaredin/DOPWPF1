@@ -1,0 +1,52 @@
+﻿<Window x:Class="DOP1.Zadaniee6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DOP1"
+        mc:Ignorable="d"
+        Title="Zadaniee6" Height="450" Width="800">
+    <Grid>
+        <WrapPanel >
+            <Button  Background="BlanchedAlmond" Content ="Button 1"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 2"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 3"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 4"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 5"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 6"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 7"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 8"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 9"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 10"/>
+
+
+        </WrapPanel>
+
+        <WrapPanel Margin="0 30 0 0"  Orientation="Vertical">
+            <Button  Background="BlanchedAlmond" Content ="Button 1"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 2"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 3"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 4"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 5"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 6"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 7"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 8"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 9"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 10"/>
+        </WrapPanel>
+        <WrapPanel Margin="100 30 0 0" ItemHeight="80" ItemWidth="80" Orientation="Vertical">
+            <Button  Background="BlanchedAlmond" Content ="Button 1"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 2"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 3"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 4"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 5"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 6"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 7"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 8"/>
+            <Button  Background="BlanchedAlmond" Content ="Button 9"/>
+            <Button  Background="BlanchedAlmond" x:Name="Zadanie7" Content ="Zadanie7" Click="Zadanie7_Click"/>
+        </WrapPanel>
+        
+        
+    </Grid>
+</Window>

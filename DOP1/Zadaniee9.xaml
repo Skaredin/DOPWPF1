@@ -1,0 +1,18 @@
+﻿<Window x:Class="DOP1.Zadaniee9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DOP1"
+        mc:Ignorable="d"
+        Title="Zadaniee9" Height="450" Width="800">
+    <Grid>
+        <Button  Background="BlanchedAlmond" Content ="s LEVO" x:Name="Zadanie9" Width="60" Height="30"  Margin="20 10 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button  Background="BlanchedAlmond" Content ="s LEVO"  Width="60" Height="30"  Margin="0 0 20 10" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+
+
+        <Button  Background="BlanchedAlmond" Content ="s 1" Width="60" Height="30"  Margin="10 10 0 0 " Panel.ZIndex="2"/>
+        <Button  Background="BlanchedAlmond" Content ="s 2"  Width="60" Height="30"  Margin="45 45 0 0" Panel.ZIndex="1"/>
+        <Button  Background="BlanchedAlmond" x:Name="KonecnoeZadanie" Content ="Konecnoe zadanie" Click="Zadanie7_Click" Margin="564,45,60,294"/>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="DOP1.Zadaniee3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DOP1"
+        mc:Ignorable="d"
+        Title="Zadaniee3" Height="450" Width="800">
+    <Grid>
+        <UniformGrid Rows="2" Columns="2">
+            <Button Content="Левая верхняя"/>
+            <Button Content="Правая верхняя"/>
+            <Button Content="Левая нижняя"/>
+            <Button Content="Правая нижняя"/>
+        </UniformGrid>
+        <Button Height="100" Width="100" Content="Zadanie 4" x:Name="Zadanie4" Click="Zadanie4_Click"/>
+    </Grid>
+</Window>
